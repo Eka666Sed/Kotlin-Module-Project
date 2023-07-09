@@ -7,7 +7,7 @@ import screen.base.Screen
 class CreateArchiveScreen : Screen() {
 
     override val title: String = "Создание архива:"
-    override val options: List<String> = listOf("Введите название архива (имя не может быть 0):")
+    override val options: List<String> = listOf("Введите название архива (имя не может быть пустым):")
 
     override fun handleInput(input: String) {
         when {

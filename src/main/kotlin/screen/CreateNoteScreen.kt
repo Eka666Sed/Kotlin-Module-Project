@@ -13,7 +13,7 @@ class CreateNoteScreen(private val archive: Archive) : Screen() {
 
     override val title: String = "Создание заметки:"
 
-    override val options: List<String> = listOf("Введите название заметки (имя не может быть 0):")
+    override val options: List<String> = listOf("Введите название заметки (имя не может быть пустым):")
 
     override fun handleInput(input: String) {
         when {
